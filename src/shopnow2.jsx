@@ -41,7 +41,7 @@ import viku111 from "./assets/images/viku111.png";
 import viku112 from "./assets/images/viku112.png";
 import viku113 from "./assets/images/viku113.png";
 import viku114 from "./assets/images/viku114.png";
-import viku117 from "./assets/images/viku117.mp4";
+import viku117 from "./assets/images/viku81.mp4";
 import viku118 from "./assets/images/viku118.png";
 import viku119 from "./assets/images/viku119.png";
 import viku120 from "./assets/images/viku120.png";

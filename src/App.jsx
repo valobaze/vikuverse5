@@ -13,20 +13,15 @@ import v8 from "./assets/images/viku8.gif";
 import v14 from "./assets/images/viku14.png";
 import v15 from "./assets/images/viku15.png";
 import v16 from "./assets/images/viku16.gif";
-import v17 from "./assets/images/viku17.gif";
 
 // NEW GIFs viku31 - viku43
 import v31 from "./assets/images/viku31.gif";
-import v32 from "./assets/images/viku32.gif";
-import v33 from "./assets/images/viku33.gif";
 import v34 from "./assets/images/viku34.gif";
 import v35 from "./assets/images/viku35.gif";
 import v36 from "./assets/images/viku36.gif";
 import v37 from "./assets/images/viku37.gif";
 import v38 from "./assets/images/viku38.gif";
-import v39 from "./assets/images/viku39.gif";
 import v40 from "./assets/images/viku40.gif";
-import v41 from "./assets/images/viku41.gif";
 import v42 from "./assets/images/viku42.gif";
 import v43 from "./assets/images/viku43.gif";
 
@@ -51,9 +46,9 @@ import ShopNow2 from "./shopnow2.jsx";
 
 // GIFs loop without viku1
 const allGifs = [
-  v3, v4, v5, v6, v7, v16, v17,
-  v32, v33, v34, v35, v36, v37, v38,
-  v39, v40, v41, v42, v43
+  v3, v4, v5, v6, v7, v16,
+  v34, v35, v36, v37, v38,
+  v40, v42, v43
 ];
 
 const rainPNGs = [
@@ -186,11 +181,10 @@ function Home() {
   }, []);
 
   const getDisplayTime = (gif) => {
-    if (gif === v3 || gif === v17) return 6000;
-    if (gif === v32 || gif === v33) return 18000;
+    if (gif === v3) return 6000;
     if (gif === v34) return 15000;
     if ([v37, v40].includes(gif)) return 7000;
-    if ([v38, v41].includes(gif)) return 2000;
+    if (gif === v38) return 2000;
     if (gif === v43) return 1000;
     return 4000;
   };
